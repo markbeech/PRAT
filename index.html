@@ -5,7 +5,7 @@
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/fantasque-sans-mono" type="text/css"/> 
 <style>
 body {
-  font-size:1.1em;width:80%;margin:auto;font-family: 'FantasqueSansMonoRegular'; }
+  font-size:1.1em;width:80%;margin:auto;font-family: 'FantasqueSansMonoRegular';}
 td,h1 {text-align:center;}
 table {table-layout: fixed;width: 100%;}
 td {color:#000} 
@@ -21,15 +21,26 @@ td.Y22 {background-color:#6667AB; }
 td.Y23 {background-color:#BB2649; }
 td.Y24 {background-color:#FFBE98; } <!-- https://en.wikipedia.org/wiki/Pantone#Color_of_the_Year -->
 td.pln {background-color:#fff;color:#bebebe;text-shadow: -1px -1px #000;}
+
+#coty {
+  position: fixed;width:80%;background-color:#fff
+}
+#wit {
+  margin-top: 50px;
+}
+td.EventName   {white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+
 </style>
 </head>
-<body><div>
+<body><div id="coty">
 <table><caption >Color of the Year</caption>
 	<tr>
 	<td class="Y15">2015</td><td class="Y16">2016</td><td class="Y17">2017</td><td class="Y18">2018</td><td class="Y19">2019</td>
 	<td class="Y20">2020</td><td class="Y21">2021</td><td class="Y22">2022</td><td class="Y23">2023</td><td class="Y24">2024</td>
 	</tr></table></div><hr>
-<div>
+<div id="wit">
 <table><caption >Wilson Index Tracker</caption>
 	<tr>
 		<td class="Y23">001</td>
@@ -1033,6 +1044,19 @@ td.pln {background-color:#fff;color:#bebebe;text-shadow: -1px -1px #000;}
 		<td class="Y24">999</td>
 		<td class="tbd">M</td></tr>
 </table></div>
+<div><table><caption >P-Index Tracker</caption>
+<tr><td></td><td class="Y15">1</td><td class="Y16">2</td><td class="Y17">3</td><td class="Y18">4</td><td class="Y21">5</td><td class="Y22">6</td><td class="Y22">7</td><td class="Y24">8</td><td class="tbd">9</td><td class="tbd">10</td></tr>
+<tr><td class="EventName">Walsall</td><td class="Y15">1</td><td class="Y16">2</td><td class="Y16">3</td><td class="Y16">4</td><td class="Y16">5</td><td class="Y16">6</td><td class="Y16">7</td><td class="Y16">8</td><td class="Y16">9</td><td class="Y16">10</td></tr>
+<tr><td class="EventName">Pontypridd</td><td class="Y16">1</td><td class="Y16">2</td><td class="Y16">3</td><td class="Y17">4</td><td class="Y18">5</td><td class="Y18">6</td><td class="Y19">7</td><td class="Y23">8</td><td class="tbd">9</td><td class="tbd">10</td></tr>
+<tr><td class="EventName">Perry Hall</td><td class="Y16">1</td><td class="Y16">2</td><td class="Y17">3</td><td class="Y18">4</td><td class="Y18">5</td><td class="Y19">6</td><td class="Y19">7</td><td class="Y23">8</td><td class="tbd">9</td><td class="tbd">10</td></tr>
+<tr><td class="EventName">Sandwell</td><td class="Y17">1</td><td class="Y17">2</td><td class="Y18">3</td><td class="Y18">4</td><td class="Y18">5</td><td class="Y19">6</td><td class="Y22">7</td><td class="Y23">8</td><td class="tbd">9</td><td class="tbd">10</td></tr>
+<tr><td class="EventName">Ruchill</td><td class="Y18">1</td><td class="Y18">2</td><td class="Y19">3</td><td class="Y19">4</td><td class="Y21">5</td><td class="Y22">6</td><td class="Y23">7</td><td class="Y24">8</td><td class="tbd">9</td><td class="tbd">10</td></tr>
+<tr><td class="EventName">Swansea Bay</td><td class="Y16">1</td><td class="Y17">2</td><td class="Y18">3</td><td class="Y19">4</td><td class="Y21">5</td><td class="Y22">6</td><td class="Y23">7</td><td class="Y23">8</td><td class="tbd">9</td><td class="tbd">10</td></tr>
+<tr><td class="EventName">Chasewater<g/td><td class="Y19">1</td><td class="Y20">2</td><td class="Y21">3</td><td class="Y21">4</td><td class="Y21">5</td><td class="Y22">6</td><td class="Y22">7</td><td class="Y22">8</td><td class="Y22">9</td><td class="Y23">10</td></tr>
+<tr><td class="EventName">East Park</td><td class="Y19">1</td><td class="Y20">2</td><td class="Y20">3</td><td class="Y21">4</td><td class="Y22">5</td><td class="Y22">6</td><td class="Y22">7</td><td class="Y22">8</td><td class="Y22">9</td><td class="Y22">10</td></tr>
+<td class="tbd">TBD</td><td class="tbd">1</td><td class="tbd">2</td><td class="tbd">3</td><td class="tbd">4</td><td class="tbd">5</td><td class="tbd">6</td><td class="tbd">7</td><td class="tbd">8</td><td class="tbd">9</td><td class="tbd">10</td></tr>
+</table></div>
+
 <div><table><caption >Stopwatch Bingo</caption><tr>		
 <td class="Y16">00</td>
 <td class="Y17">01</td>
